@@ -16,17 +16,7 @@ Evaluación del modelo: Se evaluó el modelo utilizando diferentes métricas, in
 
 Ajuste del modelo: Se ajustó el modelo utilizando diferentes técnicas de optimización, como la variación de hiperparámetros y el ajuste de pesos.
 
-Implementación: Finalmente, se implementó el modelo en una aplicación web para su uso por parte de los médicos y especialistas en radiología.
-
-Instrucciones de uso
-Para utilizar el modelo, es necesario tener un conjunto de datos de imágenes de resonancia magnética de pacientes con tumores cerebrales. El modelo puede ser entrenado utilizando un conjunto de datos de entrenamiento y validado utilizando un conjunto de datos de prueba.
-
-El modelo se encuentra en el archivo "modelo.py". Este archivo contiene todo el código necesario para crear, entrenar y validar el modelo. Para utilizar el modelo, simplemente se debe importar en un script de Python y llamar a las funciones necesarias para crear y entrenar el modelo.
-
-Se proporciona un archivo de ejemplo "ejemplo.py" que muestra cómo utilizar el modelo para clasificar una imagen de resonancia magnética. Se deben cambiar los nombres de los archivos de imagen para que coincidan con los archivos que se desean clasificar.
-
-Contribuciones
-Las contribuciones a este repositorio son bienvenidas. Si desea contribuir al modelo, simplemente haga un fork del repositorio y envíe sus cambios a través de una pull request.
+Implementación: Finalmente, se implementó el modelo en una aplicación web para su uso por parte de los médicos y especialistas en Imagen para el diágnostico
 
 El nivel de precisión del modelo es:
 
@@ -34,6 +24,18 @@ Precisión de entrenamiento: 100%
 Precisión de validación: 99.08%
 Precisión de prueba: 99.31%
 Estos valores indican que el modelo ha aprendido a hacer predicciones muy precisas en los conjuntos de datos de entrenamiento, validación y prueba. La precisión de prueba del 99.31% significa que el modelo ha hecho predicciones correctas para la gran mayoría de las muestras en el conjunto de datos de prueba. En general, estos resultados indican que el modelo tiene un alto nivel de precisión en la clasificación de las muestras en las diferentes clases.
+
+Instrucciones de uso
+Para utilizar el modelo, es necesario tener un conjunto de datos de imágenes de resonancia magnética de pacientes con tumores cerebrales. El modelo puede ser entrenado utilizando un conjunto de datos de entrenamiento y validado utilizando un conjunto de datos de prueba.
+
+El modelo se encuentra en el archivo "OK_BRI.ipynb". Este archivo contiene todo el código necesario para crear, entrenar y validar el modelo. Para utilizar el modelo, simplemente se debe importar en un script de Python y llamar a las funciones necesarias para crear y entrenar el modelo.
+
+Se proporciona un archivo de ejemplo "OK_BRI.ipynb" que muestra cómo utilizar el modelo para clasificar una imagen de resonancia magnética. Se deben cambiar los nombres de los archivos de imagen para que coincidan con los archivos que se desean clasificar.
+
+Contribuciones
+Las contribuciones a este repositorio son bienvenidas. Si desea contribuir al modelo, simplemente haga un fork del repositorio y envíe sus cambios a través de una pull request.
+
+
 Créditos
 Este modelo ha sido creado por [nombre del creador] y ha sido financiado por [nombre de la organización]. Los datos utilizados para entrenar y validar el modelo fueron proporcionados por [nombre de la fuente de datos].
 
