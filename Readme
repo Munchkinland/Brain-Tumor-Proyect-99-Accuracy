@@ -24,6 +24,7 @@ El nivel de precisión del modelo es:
 Precisión de entrenamiento: 100%
 Precisión de validación: 99.08%
 Precisión de prueba: 99.31%
+
 Estos valores indican que el modelo ha aprendido a hacer predicciones muy precisas en los conjuntos de datos de entrenamiento, validación y prueba. La precisión de prueba del 99.31% significa que el modelo ha hecho predicciones correctas para la gran mayoría de las muestras en el conjunto de datos de prueba. En general, estos resultados indican que el modelo tiene un alto nivel de precisión en la clasificación de las muestras en las diferentes clases.
 
 Instrucciones de uso
