@@ -1,4 +1,5 @@
 Intención del modelo
+
 El modelo que se encuentra en este repositorio ha sido creado para clasificar diferentes tipos de tumores cerebrales. El objetivo del modelo es ayudar a los médicos y especialistas en radiología a identificar el tipo de tumor que se presenta en una imagen de resonancia magnética del cerebro.
 
 El modelo ha sido entrenado con un conjunto de datos de resonancias magnéticas de pacientes con diferentes tipos de tumores cerebrales. El modelo ha sido diseñado para clasificar cuatro tipos diferentes de tumores: glioma, meningioma, no tumor y adenoma hipofisario.
